@@ -1,13 +1,6 @@
 export function Footer({ children }: React.PropsWithChildren<{}>) {
   return (
     <footer>
-      <a
-        target="_blank"
-        href="https://chatg.pt/weather"
-        aria-label="Vercel"
-        rel="noreferrer"
-        className="vercel"
-      >
         <svg
           width="106"
           height="24"
@@ -40,26 +33,7 @@ export function Footer({ children }: React.PropsWithChildren<{}>) {
         </svg>
       </a>
 
-      <div className="details">
-        <p>
-          Built with{" "}
-          <a target="_blank" href="https://nextjs.org" rel="noreferrer">
-            Next.js
-          </a>{" "}
-          on{" "}
-          <a target="_blank" href="https://vercel.com" rel="noreferrer">
-            Vercel
-          </a>
-        </p>
-        {children}
-      </div>
-
-      <a
-        target="_blank"
-        href="https://github.com/steven-tey/weathergpt"
-        className="source"
-        rel="noreferrer"
-      >
+     
         <svg
           width="24"
           height="24"
